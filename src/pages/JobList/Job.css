@@ -1,0 +1,33 @@
+.cell {
+    max-width: 50px;
+    /* tweak me please */
+    white-space: pre-wrap;
+    overflow-x: hidden;
+    overflow-y: auto;
+    word-wrap: break-word;
+    /* height: 50px; */
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    text-align: center;
+    color: black;
+}
+
+.one {
+    float: left;
+    margin-left: 15px;
+
+}
+
+/* .expand-small-on-hover:hover {
+    max-width: 500px;
+    text-overflow: ellipsis;
+} */
+
+/* .expand-maximum-on-hover:hover {
+    max-width: initial;
+} */
